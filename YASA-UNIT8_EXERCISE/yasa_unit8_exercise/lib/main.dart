@@ -302,7 +302,7 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
-    final ColorScheme = Theme.of(context).colorScheme;
+    final colorScheme = Theme.of(context).colorScheme;
 
     return Scaffold(
       appBar: AppBar(title: const Text(fullName)),
@@ -413,7 +413,7 @@ class ProfileScreen extends StatelessWidget {
                               'Subject',
                             ])
                               Container(
-                                color: ColorScheme.primaryContainer,
+                                color: colorScheme.primaryContainer,
                                 padding: const EdgeInsets.all(8),
                                 child: Text(
                                   heading,
